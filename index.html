@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/globalStyles.css">
+  <link rel="stylesheet" href="./styles/fonts.css">
+  <link rel="stylesheet" href="./styles/buttons.css">
+  <link rel="stylesheet" href="./styles/flex.css">
+  <link rel="stylesheet" href="pages/home/index.css">
+  <link rel="stylesheet" href="./styles/responsive.css">
+  <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
+  <title>Webwomen</title>
+  <meta name="description" content="Está procurando oportunidades de estágio, emprego ou bolsas de estudo? 
+      Ou até mesmo oportunidades para atender eventos de tecnologia no Brasil 
+      e ao redor do mundo?" />
+</head>
+
+<body>
+  <img src="assets/img/header-bg.png" alt="" class="bg-img">
+
+  <main class="flex flex-column gap32 container">
+    <header class="flex flex-column gap60">
+      <div class="logo">
+        <img src="assets/img/logo.svg" alt="">
+      </div>
+      <div class="flex flex-column gap32">
+        <h3 class="title3 color-grey3">Lugar de mulher é onde ela quiser</h3>
+        <p class="title5 color-grey5">
+          Está procurando oportunidades de estágio, emprego ou bolsas de estudo?
+          Ou até mesmo oportunidades para atender eventos de tecnologia no Brasil e ao redor do mundo?
+        </p>
+        <p class="title5 color-grey5">Confere aqui embaixo o que temos pra você!</p>
+      </div>
+      <a href="#jobs"><button class="button-brand">Ir para seção das vagas</button></a>
+    </header>
+    <section class="flex flex-column gap44 main-desktop">
+      <ul class="job-list flex flex-column gap32">
+        <div class="title title-desktop" id="jobs">
+          <h4 class="title4 color-grey1" >Vagas</h4>
+        </div>
+
+      </ul>
+
+      <aside class="flex flex-column gap32 aside-desktop">
+        <h4 class="title4 color-grey1">Vagas Selecionadas</h4>
+        <div class="job-empty flex flex-column gap28 color-grey2">
+          <p class="color-grey2">Você ainda não aplicou para nenhuma vaga</p>
+          <div class="blank-space flex flex-column gap16">
+            <p> </p>
+            <p> </p>
+            <div class="flex gap16">
+              <p> </p>
+              <p> </p>
+              <p> </p>
+            </div>
+          </div>
+        </div>
+        <ul class="applied-list flex flex-column gap44">
+
+        </ul>
+
+      </aside>
+    </section>
+  </main>
+
+  <script src="./pages/home/jobsData.js"></script>
+  <script src="./scripts/eventListeners.js"></script>
+  <script src="./pages/home/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+header {
+    padding: 4rem 1rem 5rem;
+    overflow: hidden;
+
+}
+
+.bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 49.35rem;
+    object-fit: cover;
+    width: 100vw;
+}
+
+header .logo {
+    width: 12rem;
+}
+
+.title {
+    width: 22rem;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 2.375rem;  
+    background-color: var(--color-grey-6);
+    position: relative;
+    top: 50px;
+    border-radius: var(--radius-default);
+
+}
+
+.job {
+    background-color: var(--color-grey-6);
+    border-radius: var(--radius-default);
+    padding: 2.375rem;  
+    max-width: 22rem;
+    margin: 0 auto; 
+}
+
+.modalities {
+    background-color: var(--color-grey-3);
+    color: var(--color-grey-2);
+    border-radius: var(--radius-default);
+    padding: 0.25rem 0.75rem;
+    width: fit-content;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+aside {
+    background-color: var(--color-grey-6);
+    border-radius: var(--radius-default);
+    padding: 2.375rem;  
+    max-width: 22rem;
+    margin: 0 auto; 
+}
+
+aside .applied-list li{
+    border-bottom: 2px solid var(--color-grey-4);
+    padding-bottom: 2rem;
+    width: 100%;
+}
+
+.div-button {
+    width: 15%;
+}
+
+footer {
+    row-gap: 2rem;
+}
+
+.blank-space p {
+    background-color: var(--color-grey-5);
+    color: var(--color-grey-5);
+    border-radius: var(--radius-default);
+    font-size: 0.8rem;    
+}
+
+.blank-space > p:nth-child(1) {
+    width: 50%;
+}
+
+.blank-space > div > p {
+    width: 40%;
+}
+
+.blank-space > div > p:nth-child(3) {
+    width: 20%;
+}
+
+.hide {
+    display: none;
+  }
